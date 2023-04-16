@@ -1,0 +1,15 @@
+.cities-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.city-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
