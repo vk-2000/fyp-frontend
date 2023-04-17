@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(https://thumbs.dreamstime.com/b/charlotte-north-carolina-city-skyline-silhouette-charlotte-north-carolina-usa-city-skyline-silhouette-background-vector-113856806.jpg);
+  filter: blur(5px);
+  z-index: -1;
+  position: fixed;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

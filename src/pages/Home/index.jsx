@@ -7,8 +7,8 @@ const Home = () => (
   <div>
     <Navbar />
     <div className="main-text">
-      <span>Twitter search</span>
-      <span>Find problems in cities using twitter</span>
+      <span>TweetPulse</span>
+      <span>Track citizen issues in real-time</span>
     </div>
     <Cities />
   </div>

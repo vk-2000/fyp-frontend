@@ -1,5 +1,6 @@
 .tweet-card {
-    border: 1px solid #e6ecf0;
+    border: 1px solid #d7d6d6;
+    border-left: 2px solid black;
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
@@ -11,7 +12,9 @@
 }
 .tweet-card .tweet-text {
     flex-basis: 70%;
+    text-align: start;
 }
 .tweet-card .tweet-problem {
     flex-basis: 30%;
+    text-align: center;
 }

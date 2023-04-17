@@ -1,7 +1,7 @@
 .main-text {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
 }

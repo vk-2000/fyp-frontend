@@ -14,7 +14,6 @@ const Cities = () => {
   }, []);
   return (
     <div className="cities-body">
-      <div>Cities</div>
       <div className="city-cards-container">
         {cities.map((city) => (
           <CityCard name={city} key={city} />

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        Twitter
+        TweetPulse
       </div>
     </nav>
   );
