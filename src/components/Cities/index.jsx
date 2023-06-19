@@ -16,7 +16,7 @@ const Cities = () => {
     <div className="cities-body">
       <div className="city-cards-container">
         {cities.map((city) => (
-          <CityCard name={city} key={city} />
+          <CityCard name={city.name} image={city.image} key={city} />
         ))}
       </div>
     </div>

@@ -3,10 +3,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: black;
+    background-color: #343a40;
 }
 nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
+    font-family: 'Shadows Into Light', cursive;
 }

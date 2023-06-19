@@ -5,9 +5,14 @@ export const GET_CITIES = {
   method: 'GET',
 };
 
-export const GET_TWEETS_BY_CITY = (city) => (
+export const LOGIN = {
+  url: `${BACKEND_URL}/token/`,
+  method: 'POST',
+};
+
+export const GET_TWEETS_BY_CITY = (city, problemType) => (
   {
-    url: `${BACKEND_URL}/tweets/${city}`,
+    url: `${BACKEND_URL}/tweets/${city}?problem_type=${problemType}`,
     method: 'GET',
   }
 );

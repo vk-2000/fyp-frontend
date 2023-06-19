@@ -1,20 +1,51 @@
 .tweet-card {
     border: 1px solid #d7d6d6;
-    border-left: 2px solid black;
+    border-left: 2px solid #343a40;
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
     width: 80%;
-}
-.tweet-card .tweet-text {
-    flex-basis: 70%;
-    text-align: start;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 .tweet-card .tweet-problem {
-    flex-basis: 30%;
-    text-align: center;
+    /* flex-basis: 20%; */
+    text-align: start;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+.tweet-card .tweet-problem span {
+    margin-right: 2rem;
+}
+.tweet-card .tweet-media {
+    /* width: 100%; */
+    height: 400px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.tweet-card .tweet-media img {
+    width: 100%;
+    height: 100%;
+}
+.tweet-card .tweet-text {
+    /* flex-basis: 60%; */
+    text-align: start;
+    width: 100%;
+    margin-left: .5rem;
+}
+.tweet-card .tweet-locations-container {
+    /* flex-basis: 20%; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
 }

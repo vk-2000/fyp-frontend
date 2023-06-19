@@ -1,4 +1,4 @@
-button {
+/* button {
     background: transparent;
     border: none;
     height: 200px;
@@ -11,6 +11,7 @@ button {
     background-image: linear-gradient(rgba(35, 35, 35, 0.775), rgba(181, 181, 181, 0.893)), url(https://competitiveness.in/wp-content/uploads/2017/12/Creative_Economy_Cities_2017.jpg);
     color: white;
 }
+*/
 button:hover {
     transform: scale(1.05);
     cursor: pointer;

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    height: 100vh;
 }
 
 .city-cards-container {
@@ -12,4 +13,10 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .cities-body {
+        height: 100%;
+    }
+    
 }
