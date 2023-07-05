@@ -1,4 +1,4 @@
-export const BACKEND_URL = 'http://localhost:8000/api';
+export const BACKEND_URL = 'http://localhost:7000/api';
 
 export const GET_CITIES = {
   url: `${BACKEND_URL}/cities`,
